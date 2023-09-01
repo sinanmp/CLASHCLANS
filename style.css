@@ -1,0 +1,339 @@
+.header-div{
+    height: 75px;
+    width: 79%;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.games{
+    width: 70px;
+    height: 90px;
+}
+.games:hover .nav1{
+    transform: translate(0px,78px);
+    transition: transform 2s;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.first-logo{
+    width: 52px;
+    margin-left: 15px;
+    margin-top: 16px;
+    height: 44px;
+    cursor: pointer;
+}
+.header-texts{
+    color: gray;
+    margin-left: 45px;
+    margin-top: 29px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header-texts:hover{
+    color: aliceblue;
+}
+.games{
+    color: aliceblue;
+}
+.main-image{
+    position: relative;
+    margin-top: -54px;
+    width: 1536px;
+
+}
+.clash-logo{
+    position: relative;
+
+    top: -511px;
+    left: 628px;
+    width: 291px;
+}
+.white-div{
+    background-color: white;
+    width: 1544px;
+    height: 1202px;
+    position: relative;
+
+    margin-top: -177px;
+    margin-left: -8px;
+    overflow: hidden;
+}
+.phone1{
+    width: 903px;
+    margin-top: 84px;
+    margin-left: -232px;
+}
+.icons-div{
+    display: flex;
+    justify-content: end;
+    width: 58%;
+    margin-right: 15px;
+    background: none;
+} 
+.icons{
+    width: 29px;
+    height: 29px;
+    margin-right: 29px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.icons:hover{
+    filter: brightness(100);
+}
+.p{
+    color: aliceblue;
+    font-family: 'roboto', sans-serif;
+    font-size: 90px;
+    margin-top: -23px;
+    font-weight: 100;
+    filter: brightness(0.5);
+    opacity: .5;
+    
+}
+.search{
+    width: 16px;
+    height: 16px;
+    margin-left: 22px;
+    margin-top: 29px;
+    margin-right: 7px;
+    filter: brightness(.5);
+    transition: 1s;
+}
+.search:hover{
+    filter: brightness(100);
+}
+.phone-victory{
+    display: flex;
+
+}
+.victory{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 174px;
+    margin-left: 129px;
+}
+.victory-answer{
+    display: flex;
+    flex-direction: column;
+}
+.answer{
+    font-family: 'roboto', sans-serif;
+    margin-left: 129px;
+    line-height: 27px;
+    margin-top: 13px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.storse{
+    display: flex;
+    flex-direction: row;
+    margin-left: 115px;
+    margin-top: 29px;
+}
+.storese-length{
+    width: 150px;
+    margin-left: 17px;
+}
+.backround-image{
+    position: relative;
+    margin-top: 69px;
+    width: 100%;
+    height: 600px;
+}
+.see-the-latest{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    top: -414px;
+    left: 168px;
+}
+.see-to-follow{
+    color: #ffff;
+}
+.latest{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: -31px;
+}
+.to-stay{
+    font-family: 'roboto', sans-serif;
+    margin-top: 23px;
+    font-size: 19px;
+    line-height: 26px;
+}
+.follow-clash{
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.anothor-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-top: 26px;
+}
+.social{
+    width: 25px;
+    margin-left: 15px;
+    height: 23px;
+  }
+.game-phone{
+
+  width: 936px;
+    margin-top: -796px;
+    height: 465px;
+    margin-right: -325px;
+  }
+  .game-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+.blue-div{
+    background-color: #2569d0;
+    width: 105%;
+    height: 200px;
+    margin-top: -16px;
+    margin-left: -52px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.interested{
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffff;
+    margin-top: 57px;
+    margin-left: 284px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.button{
+    color: black;
+    background-color: #ffff;
+    font-family: 'roboto', sans-serif;
+    margin-left: 500px;
+    width: 179px;
+    margin-top: 9px;
+    height: 47px;
+    border-radius: 11px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.mini-pekka{
+    z-index: 1;
+    margin-top: -236px;
+    width: 260px;
+    height: 234px;
+    margin-right: 227px;
+}
+.mini-div{
+    display: flex;
+    justify-content: end
+}
+.black-div{
+    background-color: black;
+    width: 102%;
+    height: 450PX;
+    overflow: hidden;
+    margin-left: -8px;
+}
+.follow-youtube{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 241px;
+}
+.you-facbook{
+   display: flex;
+   flex-direction: row;
+   margin-left: -22px;
+}
+.src{
+    width: 25px;
+    margin-left: 22px;
+    height: 24px;
+    cursor: pointer;
+}
+.follow-us{
+    color: #ffff;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.you-src{
+    width: 31px;
+}
+.hr{
+    width: 80%;
+    margin-top: 36px;
+    opacity: 0.4;
+    margin-right: 263px;
+}
+.terms-use{
+    display: flex;
+    flex-direction: row;
+}
+.tos{
+    color: aliceblue;
+    font-family: 'roboto', sans-serif;
+    margin-right: 27px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.play-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    margin-right: 274px;
+    margin-top: -129px;
+}
+.app-play{
+    width: 170px;
+    margin-left: 20px;
+}
+.supercell{
+    color: gray;
+    font-family: 'roboto', sans-serif;
+    margin-top: 97px;
+    margin-left: 239px;
+    line-height: 22px;
+    font-size: 13px;
+}
+.supercell-last{
+    margin-left: 1220px;
+    margin-top: -62px;
+    width: 60px;
+    cursor: pointer;
+}
+.main-parent{
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.last-logo{
+    margin-top: -30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
